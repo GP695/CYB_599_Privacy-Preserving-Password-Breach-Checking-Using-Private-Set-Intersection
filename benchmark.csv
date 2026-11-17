@@ -1,0 +1,7 @@
+dataset_size,capacity_m,parameter_set,N,t,log2_q_budget,reference_hit_ms,reference_miss_ms,plaintext_hit_ms,plaintext_miss_ms,estimated_upload_3ct_bytes,estimated_download_100k_alpha_bytes,measurement_type
+1000,8,BFV-P1,16384,549756174337,300,0.0034,0.0027,0.0001,0.0001,3686400,1228800,Python plaintext reference timing; ciphertext sizes analytical only
+1000,8,BFV-P2,16384,549756174337,350,0.0034,0.0027,0.0001,0.0001,4300800,1228800,Python plaintext reference timing; ciphertext sizes analytical only
+10000,16,BFV-P1,16384,549756174337,300,0.003,0.004,0.0001,0.0001,3686400,1228800,Python plaintext reference timing; ciphertext sizes analytical only
+10000,16,BFV-P2,16384,549756174337,350,0.003,0.004,0.0001,0.0001,4300800,1228800,Python plaintext reference timing; ciphertext sizes analytical only
+100000,40,BFV-P1,16384,549756174337,300,0.0027,0.0064,0.0001,0.0001,3686400,1228800,Python plaintext reference timing; ciphertext sizes analytical only
+100000,40,BFV-P2,16384,549756174337,350,0.0027,0.0064,0.0001,0.0001,4300800,1228800,Python plaintext reference timing; ciphertext sizes analytical only
